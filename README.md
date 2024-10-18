@@ -60,7 +60,7 @@ python src/train.py --test-only
 
 ## Data
 
-This project uses the EMSLIBS contest 2019 benchmark classification dataset. The data files are not included in this repository due to size constraints. Please place the following files in the `data/` directory:
+This project uses the [EMSLIBS contest 2019](https://www.sciencedirect.com/science/article/pii/S0584854720300422) [benchmark classification dataset](https://www.nature.com/articles/s41597-020-0396-8). The [data files](https://springernature.figshare.com/collections/Benchmark_classification_dataset_for_laser-induced_breakdown_spectroscopy/4768790) are not included in this repository due to size constraints. Please place the following files in the `data/` directory:
 
 - `contest_TRAIN.h5`: Training dataset
 - `contest_TEST.h5`: Test dataset

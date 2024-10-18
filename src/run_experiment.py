@@ -28,10 +28,10 @@ def run_experiment(test_only=False, epochs=300, batch_size=128, learning_rate=0.
 if __name__ == "__main__":
     # Example usage:
     run_experiment(
-        epochs=50,
+        epochs=100,
         batch_size=128,
         learning_rate=0.0005,
-        reg_lambda=0.001,
+        reg_lambda=0.0001,
         reg_type='l2',
         save_model=True
     )
