@@ -60,7 +60,7 @@ python src/train.py --test-only
 
 ## Data
 
-This project uses the [EMSLIBS contest 2019](https://www.sciencedirect.com/science/article/pii/S0584854720300422) [benchmark classification dataset](https://www.nature.com/articles/s41597-020-0396-8). The [data files](https://springernature.figshare.com/collections/Benchmark_classification_dataset_for_laser-induced_breakdown_spectroscopy/4768790) are not included in this repository due to size constraints. Please place the following files in the `data/` directory:
+This project uses the [EMSLIBS contest 2019](https://www.sciencedirect.com/science/article/pii/S0584854720300422) [benchmark classification dataset](https://www.nature.com/articles/s41597-020-0396-8). You can [download](https://springernature.figshare.com/collections/Benchmark_classification_dataset_for_laser-induced_breakdown_spectroscopy/4768790) and place the required files in the `data/` directory:
 
 - `contest_TRAIN.h5`: Training dataset
 - `contest_TEST.h5`: Test dataset
@@ -78,15 +78,6 @@ After training and testing, the results will be saved in the `output/` directory
 - `test_predictions.npy`: NumPy array of model predictions
 - `test_true_labels.npy`: NumPy array of true labels
 
-## Contributing
-
-Contributions to improve the project are welcome. Please follow these steps:
-
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## License
 
@@ -94,5 +85,3 @@ This project is licensed under the MIT License - see the `LICENSE` file for deta
 
 ## Acknowledgments
 
-- EMSLIBS contest 2019 for providing the benchmark dataset
-- PyTorch community for the excellent deep learning framework
